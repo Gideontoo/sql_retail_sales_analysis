@@ -86,3 +86,7 @@ or
 total_sale is null
 ```
 
+## 3 Data Analysis and findings
+
+-The following questions were answered to give more insight to business
+
