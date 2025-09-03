@@ -1,3 +1,4 @@
+
 # sql_retail_sales_analysis
 ## **Project Overview**
 **Project Title** Retail Sales Analysis
@@ -14,8 +15,11 @@ This project is designed to use techniques that are for exploring, cleaning, and
 
 
 ## Project Structure
+
+## 1 Database Setup
 - **Database Creation** The database was created.**Table Creation**
 - The table created was `retail_sales` table.
+  
 
  
 ```sql
@@ -35,3 +39,4 @@ create table retail_sales
 	    total_sale FLOAT
 	    );
 ```
+## 2 Database Exploration and Cleaning
