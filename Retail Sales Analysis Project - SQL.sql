@@ -28,14 +28,14 @@ from retail_sales
 
 -- DATA EXPLORATION AND CLEANING
 -- Finding total number of records in the dataset
-select count(*)
-from retail_sales
+	select count(*)
+	from retail_sales
 -- Finding unique clients in the dataset
-select count(distinct customer_id)
-from retail_sales
+	select count(distinct customer_id)
+	from retail_sales
 -- Identifying all unique product categories
-select distinct category
-from retail_sales
+	select distinct category
+	from retail_sales
 -- Find null values present
 	select *
 	from retail_sales
@@ -182,4 +182,5 @@ from retail_sales
 
 
 	
+
 
