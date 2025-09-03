@@ -1,3 +1,26 @@
+-- Create Tablce
+drop table if exists retail_sales
+create table retail_sales
+	 (
+	    transaction_id INT PRIMARY KEY,	
+	    sale_date DATE,	 
+	    sale_time TIME,	
+	    customer_id	INT,
+	    gender	VARCHAR(15),
+	    age	INT,
+	    category VARCHAR(15),	
+	    quantity INT,
+	    price_per_unit FLOAT,	
+	    cogs	FLOAT,
+	    total_sale FLOAT
+	    );
+
+
+select *
+from retail_sales
+limit 10
+
+
 -- Retail Sales Analysis
 
 select *
@@ -144,6 +167,7 @@ from retail_sales
 	order by 2 desc
 
 	
+
 
 
 
