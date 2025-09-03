@@ -14,5 +14,24 @@ This project is designed to use techniques that are for exploring, cleaning, and
 
 
 ## Project Structure
-**Database Creation** The database was created
-**Table Creation** The table created was retail_sales table
+- **Database Creation** The database was created.**Table Creation**
+- The table created was `retail_sales` table.
+
+ 
+```sql
+drop table if exists retail_sales
+create table retail_sales
+	 (
+	    transaction_id INT PRIMARY KEY,	
+	    sale_date DATE,	 
+	    sale_time TIME,	
+	    customer_id	INT,
+	    gender	VARCHAR(15),
+	    age	INT,
+	    category VARCHAR(15),	
+	    quantity INT,
+	    price_per_unit FLOAT,	
+	    cogs	FLOAT,
+	    total_sale FLOAT
+	    );
+```
