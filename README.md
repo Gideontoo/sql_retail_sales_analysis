@@ -40,3 +40,49 @@ create table retail_sales
 	    );
 ```
 ## 2 Database Exploration and Cleaning
+
+``` sql
+select count(*)
+from retail_sales
+```
+**Finding unique clients in the dataset**
+``` sql	
+select count(distinct customer_id)
+from retail_sales
+```
+**Identifying all unique product categories**
+``` sql
+select distinct category
+from retail_sales
+```
+**Find null values present**
+``` sql
+select *
+from retail_sales
+where
+transactions_id is null
+or
+sale_date is null
+or 
+sale_time is null
+or
+customer_id is null
+or
+total_sale is null
+```
+**delete null values not needed**
+```sql
+delete 
+from retail_sales
+where 
+transactions_id is null
+or
+sale_date is null
+or 
+sale_time is null
+or
+customer_id is null
+or
+total_sale is null
+```
+
